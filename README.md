@@ -1,0 +1,2 @@
+# nginxBase
+nginxBase for Shippable
