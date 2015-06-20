@@ -1,6 +1,5 @@
-FROM shippabledev/ubuntu:12.04
+FROM shipimg/appbase:latest
 MAINTAINER ragesh@rageshkrishna.com
-
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise restricted multiverse" >> /etc/apt/sources.list && \
     apt-get update && \
